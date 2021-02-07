@@ -3,7 +3,6 @@ var multer = require('multer')
 var upload = multer({ dest: 'uploads/' })
 
 
-const http = require("http")
 const { join } = require("path")
 
 let app = express();
